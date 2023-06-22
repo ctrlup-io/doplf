@@ -28,11 +28,11 @@
       {
         "assets": [
           "docs/CHANGELOG.md",
-          "package.json"
+          "package.json",
+          "dist"
         ]
       }
     ],
-    "@semantic-release/npm",
     [
       "@semantic-release/git",
       {
