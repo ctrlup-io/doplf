@@ -10,6 +10,6 @@ describe("App", () => {
 
     await userEvent.click(screen.getByRole("button", { name: "count is 0" }));
 
-    expect(screen.getByRole("button")).toHaveTextContent("count is 1");
+    expect(screen.getByRole("button")).toHaveTextContent("count is 3");
   });
 });
