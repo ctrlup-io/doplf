@@ -2,7 +2,8 @@ name: Pull request on release branches
 
 on:
   pull_request:
-    branches: main
+    branches:
+      - main
 
 jobs:
   build:
@@ -26,3 +27,4 @@ jobs:
           cache: "npm"
       - run: npm ci
       - run: npm run test
+      - run: npm run lint
